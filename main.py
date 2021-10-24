@@ -1,7 +1,7 @@
 import os
 import telebot
 
-bot = telebot.TeleBot("API KEY HEAR")
+bot = telebot.TeleBot("2090894381:AAEx5mWUh26JLuSxIqvwCNWDyQRJAKleDrQ")
 
 @bot.message_handler(commands-["start"])
 def send_welcome(message):
